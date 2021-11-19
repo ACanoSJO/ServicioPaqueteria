@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+:root{
+    --prim-color: hsl(208, 100%, 95%);
+    --secon-color: hsl(208, 100%, 70%);
+    --thrd-color: hsl(208, 100%, 97%);
+}
+*{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#padre{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: var(--secon-color);
+    height: 8vh;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+#body{
+    height: 84vh;
+    /* QUITAR ALTURA PARA QUE SE EXPANDA CON EL CONTENIDO */
+    background-color: var(--prim-color);
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor1{
+    background-color: var(--thrd-color);
+    height: 84vh;
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#forms{
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.forms{
+    width: 100%;
+}
+
+footer{
+    background-color: var(--secon-color);
+    height: 8vh;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
